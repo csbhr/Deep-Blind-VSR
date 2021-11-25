@@ -1,0 +1,174 @@
+Inference - Gaussian_Vid4
+save_image: False
+border: False
+input_path: ../dataset/Vid4_BlurDown_Gaussian/blurdown_x4
+gt_path: ../dataset/Vid4_BlurDown_Gaussian/sharp
+model_path: ../pretrain_models/gaussian_e1r3.pt
+result_path: ../infer_results/infer_Gaussian_Vid4
+quick_test: Gaussian_Vid4
+large_model: False
+n_seq: 5
+scale: 4
+size_must_mode: 1
+device: cuda
+Loading model from ../pretrain_models/gaussian_e1r3.pt
+> calendar-00000002 PSNR=20.727, SSIM=0.6935 pre_time:0.0178s, forward_time:0.328s, post_time:0.391s, total_time:0.737s
+> calendar-00000003 PSNR=20.685, SSIM=0.6884 pre_time:0.0143s, forward_time:0.22s, post_time:0.403s, total_time:0.638s
+> calendar-00000004 PSNR=20.686, SSIM=0.686 pre_time:0.0142s, forward_time:0.221s, post_time:0.421s, total_time:0.657s
+> calendar-00000005 PSNR=20.708, SSIM=0.6865 pre_time:0.0163s, forward_time:0.22s, post_time:0.406s, total_time:0.642s
+> calendar-00000006 PSNR=20.704, SSIM=0.6866 pre_time:0.0137s, forward_time:0.237s, post_time:0.405s, total_time:0.655s
+> calendar-00000007 PSNR=20.735, SSIM=0.6889 pre_time:0.0138s, forward_time:0.227s, post_time:0.398s, total_time:0.639s
+> calendar-00000008 PSNR=20.698, SSIM=0.6855 pre_time:0.014s, forward_time:0.214s, post_time:0.395s, total_time:0.624s
+> calendar-00000009 PSNR=20.654, SSIM=0.6817 pre_time:0.0136s, forward_time:0.217s, post_time:0.393s, total_time:0.624s
+> calendar-00000010 PSNR=20.656, SSIM=0.6816 pre_time:0.0137s, forward_time:0.216s, post_time:0.401s, total_time:0.631s
+> calendar-00000011 PSNR=20.686, SSIM=0.6821 pre_time:0.0136s, forward_time:0.216s, post_time:0.401s, total_time:0.63s
+> calendar-00000012 PSNR=20.749, SSIM=0.6857 pre_time:0.0136s, forward_time:0.215s, post_time:0.392s, total_time:0.621s
+> calendar-00000013 PSNR=20.824, SSIM=0.6874 pre_time:0.0136s, forward_time:0.218s, post_time:0.401s, total_time:0.633s
+> calendar-00000014 PSNR=20.811, SSIM=0.6879 pre_time:0.0136s, forward_time:0.216s, post_time:0.399s, total_time:0.629s
+> calendar-00000015 PSNR=20.83, SSIM=0.6882 pre_time:0.0137s, forward_time:0.217s, post_time:0.396s, total_time:0.627s
+> calendar-00000016 PSNR=20.906, SSIM=0.6917 pre_time:0.0137s, forward_time:0.213s, post_time:0.395s, total_time:0.621s
+> calendar-00000017 PSNR=20.914, SSIM=0.6943 pre_time:0.0137s, forward_time:0.224s, post_time:0.405s, total_time:0.642s
+> calendar-00000018 PSNR=20.917, SSIM=0.6955 pre_time:0.0137s, forward_time:0.217s, post_time:0.395s, total_time:0.625s
+> calendar-00000019 PSNR=20.962, SSIM=0.6983 pre_time:0.0136s, forward_time:0.215s, post_time:0.401s, total_time:0.63s
+> calendar-00000020 PSNR=21.017, SSIM=0.701 pre_time:0.0136s, forward_time:0.218s, post_time:0.421s, total_time:0.653s
+> calendar-00000021 PSNR=20.967, SSIM=0.7005 pre_time:0.0143s, forward_time:0.275s, post_time:0.534s, total_time:0.822s
+> calendar-00000022 PSNR=20.951, SSIM=0.7001 pre_time:0.0198s, forward_time:0.251s, post_time:0.401s, total_time:0.671s
+> calendar-00000023 PSNR=20.998, SSIM=0.703 pre_time:0.0137s, forward_time:0.217s, post_time:0.402s, total_time:0.633s
+> calendar-00000024 PSNR=21.023, SSIM=0.7017 pre_time:0.0136s, forward_time:0.224s, post_time:0.519s, total_time:0.757s
+> calendar-00000025 PSNR=20.987, SSIM=0.7019 pre_time:0.0139s, forward_time:0.222s, post_time:0.45s, total_time:0.687s
+> calendar-00000026 PSNR=20.969, SSIM=0.7027 pre_time:0.0143s, forward_time:0.224s, post_time:0.5s, total_time:0.739s
+> calendar-00000027 PSNR=20.979, SSIM=0.7037 pre_time:0.0148s, forward_time:0.223s, post_time:0.411s, total_time:0.649s
+> calendar-00000028 PSNR=20.967, SSIM=0.7034 pre_time:0.0137s, forward_time:0.221s, post_time:0.4s, total_time:0.635s
+> calendar-00000029 PSNR=20.924, SSIM=0.7014 pre_time:0.0138s, forward_time:0.219s, post_time:0.4s, total_time:0.633s
+> calendar-00000030 PSNR=20.961, SSIM=0.7044 pre_time:0.0136s, forward_time:0.218s, post_time:0.437s, total_time:0.668s
+> calendar-00000031 PSNR=20.944, SSIM=0.7033 pre_time:0.0138s, forward_time:0.219s, post_time:0.398s, total_time:0.631s
+> calendar-00000032 PSNR=20.942, SSIM=0.704 pre_time:0.0137s, forward_time:0.212s, post_time:0.395s, total_time:0.62s
+> calendar-00000033 PSNR=21.011, SSIM=0.7063 pre_time:0.0151s, forward_time:0.223s, post_time:0.401s, total_time:0.639s
+> calendar-00000034 PSNR=21.008, SSIM=0.7055 pre_time:0.0138s, forward_time:0.217s, post_time:0.4s, total_time:0.631s
+> calendar-00000035 PSNR=21.064, SSIM=0.7082 pre_time:0.0136s, forward_time:0.212s, post_time:0.4s, total_time:0.625s
+> calendar-00000036 PSNR=21.125, SSIM=0.7088 pre_time:0.0137s, forward_time:0.214s, post_time:0.398s, total_time:0.626s
+> calendar-00000037 PSNR=21.145, SSIM=0.7095 pre_time:0.0137s, forward_time:0.223s, post_time:0.406s, total_time:0.643s
+> calendar-00000038 PSNR=21.121, SSIM=0.7088 pre_time:0.014s, forward_time:0.217s, post_time:0.45s, total_time:0.68s
+> city-00000002 PSNR=25.684, SSIM=0.7255 pre_time:0.015s, forward_time:0.189s, post_time:0.467s, total_time:0.67s
+> city-00000003 PSNR=26.025, SSIM=0.7395 pre_time:0.0149s, forward_time:0.209s, post_time:0.485s, total_time:0.709s
+> city-00000004 PSNR=25.816, SSIM=0.7395 pre_time:0.0155s, forward_time:0.204s, post_time:0.487s, total_time:0.706s
+> city-00000005 PSNR=25.589, SSIM=0.7309 pre_time:0.0132s, forward_time:0.201s, post_time:0.572s, total_time:0.786s
+> city-00000006 PSNR=25.953, SSIM=0.7352 pre_time:0.0156s, forward_time:0.314s, post_time:0.626s, total_time:0.956s
+> city-00000007 PSNR=26.13, SSIM=0.7395 pre_time:0.0153s, forward_time:0.401s, post_time:0.551s, total_time:0.966s
+> city-00000008 PSNR=25.813, SSIM=0.7357 pre_time:0.0161s, forward_time:0.297s, post_time:0.491s, total_time:0.803s
+> city-00000009 PSNR=25.386, SSIM=0.7258 pre_time:0.0163s, forward_time:0.197s, post_time:0.479s, total_time:0.692s
+> city-00000010 PSNR=25.074, SSIM=0.7136 pre_time:0.0152s, forward_time:0.205s, post_time:0.504s, total_time:0.724s
+> city-00000011 PSNR=25.279, SSIM=0.7143 pre_time:0.0154s, forward_time:0.311s, post_time:0.505s, total_time:0.831s
+> city-00000012 PSNR=25.086, SSIM=0.7058 pre_time:0.0202s, forward_time:0.355s, post_time:0.495s, total_time:0.87s
+> city-00000013 PSNR=24.842, SSIM=0.6994 pre_time:0.0152s, forward_time:0.196s, post_time:0.474s, total_time:0.686s
+> city-00000014 PSNR=24.61, SSIM=0.6899 pre_time:0.0154s, forward_time:0.196s, post_time:0.498s, total_time:0.709s
+> city-00000015 PSNR=24.461, SSIM=0.6789 pre_time:0.0149s, forward_time:0.231s, post_time:0.497s, total_time:0.744s
+> city-00000016 PSNR=24.427, SSIM=0.6749 pre_time:0.0151s, forward_time:0.409s, post_time:0.492s, total_time:0.917s
+> city-00000017 PSNR=24.326, SSIM=0.6711 pre_time:0.0154s, forward_time:0.305s, post_time:0.494s, total_time:0.814s
+> city-00000018 PSNR=24.683, SSIM=0.6932 pre_time:0.0152s, forward_time:0.195s, post_time:0.478s, total_time:0.688s
+> city-00000019 PSNR=24.85, SSIM=0.6972 pre_time:0.0158s, forward_time:0.202s, post_time:0.492s, total_time:0.709s
+> city-00000020 PSNR=24.913, SSIM=0.6994 pre_time:0.0155s, forward_time:0.267s, post_time:0.496s, total_time:0.778s
+> city-00000021 PSNR=24.967, SSIM=0.7075 pre_time:0.015s, forward_time:0.398s, post_time:0.497s, total_time:0.91s
+> city-00000022 PSNR=25.178, SSIM=0.7138 pre_time:0.0153s, forward_time:0.305s, post_time:0.49s, total_time:0.81s
+> city-00000023 PSNR=25.901, SSIM=0.738 pre_time:0.0155s, forward_time:0.197s, post_time:0.481s, total_time:0.693s
+> city-00000024 PSNR=26.138, SSIM=0.7467 pre_time:0.0152s, forward_time:0.206s, post_time:0.487s, total_time:0.709s
+> city-00000025 PSNR=26.213, SSIM=0.7588 pre_time:0.015s, forward_time:0.255s, post_time:0.496s, total_time:0.766s
+> city-00000026 PSNR=25.987, SSIM=0.76 pre_time:0.015s, forward_time:0.37s, post_time:0.495s, total_time:0.88s
+> city-00000027 PSNR=26.539, SSIM=0.7796 pre_time:0.0152s, forward_time:0.193s, post_time:0.485s, total_time:0.693s
+> city-00000028 PSNR=26.79, SSIM=0.7874 pre_time:0.0154s, forward_time:0.211s, post_time:0.48s, total_time:0.707s
+> city-00000029 PSNR=26.332, SSIM=0.7753 pre_time:0.015s, forward_time:0.237s, post_time:0.502s, total_time:0.754s
+> city-00000030 PSNR=26.003, SSIM=0.769 pre_time:0.0148s, forward_time:0.42s, post_time:0.505s, total_time:0.94s
+> city-00000031 PSNR=25.681, SSIM=0.7579 pre_time:0.0156s, forward_time:0.269s, post_time:0.488s, total_time:0.773s
+> foliage-00000002 PSNR=24.271, SSIM=0.7161 pre_time:0.0133s, forward_time:0.256s, post_time:0.381s, total_time:0.651s
+> foliage-00000003 PSNR=24.208, SSIM=0.7078 pre_time:0.0141s, forward_time:0.256s, post_time:0.395s, total_time:0.665s
+> foliage-00000004 PSNR=23.936, SSIM=0.6908 pre_time:0.0134s, forward_time:0.418s, post_time:0.398s, total_time:0.83s
+> foliage-00000005 PSNR=23.562, SSIM=0.6699 pre_time:0.0139s, forward_time:0.352s, post_time:0.384s, total_time:0.75s
+> foliage-00000006 PSNR=23.547, SSIM=0.6681 pre_time:0.014s, forward_time:0.259s, post_time:0.385s, total_time:0.659s
+> foliage-00000007 PSNR=23.563, SSIM=0.6704 pre_time:0.0134s, forward_time:0.251s, post_time:0.402s, total_time:0.666s
+> foliage-00000008 PSNR=23.457, SSIM=0.6687 pre_time:0.0139s, forward_time:0.396s, post_time:0.389s, total_time:0.799s
+> foliage-00000009 PSNR=23.905, SSIM=0.6927 pre_time:0.0138s, forward_time:0.265s, post_time:0.381s, total_time:0.659s
+> foliage-00000010 PSNR=23.921, SSIM=0.6948 pre_time:0.0138s, forward_time:0.253s, post_time:0.393s, total_time:0.659s
+> foliage-00000011 PSNR=23.678, SSIM=0.6847 pre_time:0.014s, forward_time:0.388s, post_time:0.399s, total_time:0.802s
+> foliage-00000012 PSNR=23.782, SSIM=0.688 pre_time:0.0138s, forward_time:0.356s, post_time:0.375s, total_time:0.744s
+> foliage-00000013 PSNR=23.838, SSIM=0.6913 pre_time:0.0137s, forward_time:0.25s, post_time:0.377s, total_time:0.64s
+> foliage-00000014 PSNR=23.712, SSIM=0.6855 pre_time:0.0136s, forward_time:0.266s, post_time:0.39s, total_time:0.669s
+> foliage-00000015 PSNR=23.742, SSIM=0.6892 pre_time:0.0139s, forward_time:0.415s, post_time:0.385s, total_time:0.813s
+> foliage-00000016 PSNR=23.796, SSIM=0.6897 pre_time:0.0138s, forward_time:0.254s, post_time:0.37s, total_time:0.638s
+> foliage-00000017 PSNR=23.762, SSIM=0.6875 pre_time:0.0133s, forward_time:0.252s, post_time:0.392s, total_time:0.657s
+> foliage-00000018 PSNR=23.988, SSIM=0.6957 pre_time:0.0134s, forward_time:0.456s, post_time:0.398s, total_time:0.867s
+> foliage-00000019 PSNR=23.948, SSIM=0.6946 pre_time:0.0138s, forward_time:0.327s, post_time:0.378s, total_time:0.718s
+> foliage-00000020 PSNR=23.861, SSIM=0.6883 pre_time:0.0137s, forward_time:0.256s, post_time:0.376s, total_time:0.646s
+> foliage-00000021 PSNR=23.987, SSIM=0.6925 pre_time:0.0133s, forward_time:0.29s, post_time:0.391s, total_time:0.695s
+> foliage-00000022 PSNR=23.996, SSIM=0.6941 pre_time:0.014s, forward_time:0.413s, post_time:0.383s, total_time:0.809s
+> foliage-00000023 PSNR=23.884, SSIM=0.6897 pre_time:0.0138s, forward_time:0.254s, post_time:0.371s, total_time:0.639s
+> foliage-00000024 PSNR=24.055, SSIM=0.6978 pre_time:0.0133s, forward_time:0.252s, post_time:0.388s, total_time:0.654s
+> foliage-00000025 PSNR=23.991, SSIM=0.6955 pre_time:0.0134s, forward_time:0.449s, post_time:0.391s, total_time:0.853s
+> foliage-00000026 PSNR=23.751, SSIM=0.682 pre_time:0.0135s, forward_time:0.324s, post_time:0.378s, total_time:0.716s
+> foliage-00000027 PSNR=23.924, SSIM=0.6911 pre_time:0.0136s, forward_time:0.254s, post_time:0.375s, total_time:0.643s
+> foliage-00000028 PSNR=23.896, SSIM=0.6911 pre_time:0.0134s, forward_time:0.296s, post_time:0.394s, total_time:0.703s
+> foliage-00000029 PSNR=23.786, SSIM=0.6875 pre_time:0.0138s, forward_time:0.408s, post_time:0.385s, total_time:0.807s
+> foliage-00000030 PSNR=23.977, SSIM=0.6938 pre_time:0.0137s, forward_time:0.253s, post_time:0.373s, total_time:0.64s
+> foliage-00000031 PSNR=23.879, SSIM=0.6919 pre_time:0.0133s, forward_time:0.26s, post_time:0.39s, total_time:0.663s
+> foliage-00000032 PSNR=23.836, SSIM=0.6888 pre_time:0.0135s, forward_time:0.451s, post_time:0.394s, total_time:0.858s
+> foliage-00000033 PSNR=23.957, SSIM=0.6938 pre_time:0.0137s, forward_time:0.324s, post_time:0.378s, total_time:0.715s
+> foliage-00000034 PSNR=23.865, SSIM=0.6899 pre_time:0.0135s, forward_time:0.256s, post_time:0.38s, total_time:0.65s
+> foliage-00000035 PSNR=23.797, SSIM=0.6862 pre_time:0.0133s, forward_time:0.289s, post_time:0.388s, total_time:0.69s
+> foliage-00000036 PSNR=24.01, SSIM=0.6972 pre_time:0.0138s, forward_time:0.411s, post_time:0.384s, total_time:0.809s
+> foliage-00000037 PSNR=23.872, SSIM=0.6902 pre_time:0.0136s, forward_time:0.258s, post_time:0.374s, total_time:0.645s
+> foliage-00000038 PSNR=23.802, SSIM=0.6876 pre_time:0.0133s, forward_time:0.268s, post_time:0.394s, total_time:0.675s
+> foliage-00000039 PSNR=24.135, SSIM=0.7029 pre_time:0.0136s, forward_time:0.462s, post_time:0.402s, total_time:0.878s
+> foliage-00000040 PSNR=23.846, SSIM=0.6901 pre_time:0.0136s, forward_time:0.325s, post_time:0.38s, total_time:0.719s
+> foliage-00000041 PSNR=23.767, SSIM=0.6863 pre_time:0.0136s, forward_time:0.256s, post_time:0.379s, total_time:0.648s
+> foliage-00000042 PSNR=23.797, SSIM=0.6889 pre_time:0.0134s, forward_time:0.282s, post_time:0.404s, total_time:0.699s
+> foliage-00000043 PSNR=23.673, SSIM=0.6837 pre_time:0.0138s, forward_time:0.404s, post_time:0.383s, total_time:0.801s
+> foliage-00000044 PSNR=23.618, SSIM=0.6824 pre_time:0.0138s, forward_time:0.252s, post_time:0.374s, total_time:0.64s
+> foliage-00000045 PSNR=23.729, SSIM=0.6872 pre_time:0.0133s, forward_time:0.255s, post_time:0.463s, total_time:0.731s
+> foliage-00000046 PSNR=23.573, SSIM=0.6814 pre_time:0.0173s, forward_time:0.464s, post_time:0.468s, total_time:0.949s
+> walk-00000002 PSNR=27.377, SSIM=0.8532 pre_time:0.0162s, forward_time:0.348s, post_time:0.459s, total_time:0.824s
+> walk-00000003 PSNR=27.117, SSIM=0.8463 pre_time:0.0179s, forward_time:0.291s, post_time:0.452s, total_time:0.761s
+> walk-00000004 PSNR=27.217, SSIM=0.8477 pre_time:0.0172s, forward_time:0.276s, post_time:0.46s, total_time:0.753s
+> walk-00000005 PSNR=27.299, SSIM=0.8468 pre_time:0.0183s, forward_time:0.401s, post_time:0.464s, total_time:0.883s
+> walk-00000006 PSNR=27.162, SSIM=0.8429 pre_time:0.0161s, forward_time:0.391s, post_time:0.457s, total_time:0.864s
+> walk-00000007 PSNR=27.284, SSIM=0.8462 pre_time:0.0163s, forward_time:0.28s, post_time:0.463s, total_time:0.759s
+> walk-00000008 PSNR=27.416, SSIM=0.8505 pre_time:0.0164s, forward_time:0.277s, post_time:0.455s, total_time:0.749s
+> walk-00000009 PSNR=27.272, SSIM=0.8491 pre_time:0.0168s, forward_time:0.412s, post_time:0.466s, total_time:0.895s
+> walk-00000010 PSNR=27.491, SSIM=0.8565 pre_time:0.0169s, forward_time:0.416s, post_time:0.46s, total_time:0.892s
+> walk-00000011 PSNR=27.32, SSIM=0.8527 pre_time:0.0161s, forward_time:0.27s, post_time:0.455s, total_time:0.741s
+> walk-00000012 PSNR=27.148, SSIM=0.8489 pre_time:0.0163s, forward_time:0.275s, post_time:0.464s, total_time:0.755s
+> walk-00000013 PSNR=27.392, SSIM=0.8518 pre_time:0.0171s, forward_time:0.385s, post_time:0.466s, total_time:0.869s
+> walk-00000014 PSNR=27.445, SSIM=0.8527 pre_time:0.0161s, forward_time:0.433s, post_time:0.475s, total_time:0.924s
+> walk-00000015 PSNR=27.295, SSIM=0.8492 pre_time:0.017s, forward_time:0.275s, post_time:0.453s, total_time:0.745s
+> walk-00000016 PSNR=27.441, SSIM=0.8545 pre_time:0.0157s, forward_time:0.278s, post_time:0.455s, total_time:0.748s
+> walk-00000017 PSNR=27.451, SSIM=0.8544 pre_time:0.0167s, forward_time:0.351s, post_time:0.482s, total_time:0.85s
+> walk-00000018 PSNR=27.305, SSIM=0.8508 pre_time:0.016s, forward_time:0.416s, post_time:0.459s, total_time:0.891s
+> walk-00000019 PSNR=27.504, SSIM=0.8556 pre_time:0.0171s, forward_time:0.277s, post_time:0.446s, total_time:0.74s
+> walk-00000020 PSNR=27.576, SSIM=0.8563 pre_time:0.0159s, forward_time:0.267s, post_time:0.458s, total_time:0.741s
+> walk-00000021 PSNR=27.389, SSIM=0.8532 pre_time:0.0175s, forward_time:0.366s, post_time:0.461s, total_time:0.844s
+> walk-00000022 PSNR=27.455, SSIM=0.8562 pre_time:0.017s, forward_time:0.418s, post_time:0.457s, total_time:0.892s
+> walk-00000023 PSNR=27.391, SSIM=0.8563 pre_time:0.0165s, forward_time:0.268s, post_time:0.445s, total_time:0.73s
+> walk-00000024 PSNR=27.266, SSIM=0.8538 pre_time:0.0158s, forward_time:0.278s, post_time:0.467s, total_time:0.761s
+> walk-00000025 PSNR=27.457, SSIM=0.8624 pre_time:0.0168s, forward_time:0.391s, post_time:0.466s, total_time:0.874s
+> walk-00000026 PSNR=27.536, SSIM=0.8631 pre_time:0.0166s, forward_time:0.423s, post_time:0.467s, total_time:0.906s
+> walk-00000027 PSNR=27.345, SSIM=0.8587 pre_time:0.0157s, forward_time:0.274s, post_time:0.451s, total_time:0.741s
+> walk-00000028 PSNR=27.458, SSIM=0.861 pre_time:0.0157s, forward_time:0.274s, post_time:0.458s, total_time:0.748s
+> walk-00000029 PSNR=27.365, SSIM=0.8599 pre_time:0.0185s, forward_time:0.395s, post_time:0.48s, total_time:0.894s
+> walk-00000030 PSNR=27.205, SSIM=0.8572 pre_time:0.0175s, forward_time:0.41s, post_time:0.468s, total_time:0.896s
+> walk-00000031 PSNR=27.399, SSIM=0.8619 pre_time:0.0164s, forward_time:0.289s, post_time:0.462s, total_time:0.767s
+> walk-00000032 PSNR=27.456, SSIM=0.8639 pre_time:0.0166s, forward_time:0.281s, post_time:0.469s, total_time:0.767s
+> walk-00000033 PSNR=27.382, SSIM=0.8615 pre_time:0.0175s, forward_time:0.371s, post_time:0.467s, total_time:0.856s
+> walk-00000034 PSNR=27.505, SSIM=0.8651 pre_time:0.0171s, forward_time:0.421s, post_time:0.464s, total_time:0.902s
+> walk-00000035 PSNR=27.655, SSIM=0.8655 pre_time:0.016s, forward_time:0.276s, post_time:0.455s, total_time:0.747s
+> walk-00000036 PSNR=27.599, SSIM=0.8634 pre_time:0.016s, forward_time:0.27s, post_time:0.471s, total_time:0.757s
+> walk-00000037 PSNR=27.94, SSIM=0.8734 pre_time:0.0173s, forward_time:0.395s, post_time:0.473s, total_time:0.885s
+> walk-00000038 PSNR=28.022, SSIM=0.8764 pre_time:0.0168s, forward_time:0.426s, post_time:0.473s, total_time:0.915s
+> walk-00000039 PSNR=27.805, SSIM=0.8732 pre_time:0.0168s, forward_time:0.285s, post_time:0.467s, total_time:0.77s
+> walk-00000040 PSNR=27.895, SSIM=0.8775 pre_time:0.0164s, forward_time:0.276s, post_time:0.469s, total_time:0.761s
+> walk-00000041 PSNR=28.04, SSIM=0.8779 pre_time:0.0174s, forward_time:0.345s, post_time:0.471s, total_time:0.834s
+> walk-00000042 PSNR=27.943, SSIM=0.8757 pre_time:0.0171s, forward_time:0.426s, post_time:0.475s, total_time:0.918s
+> walk-00000043 PSNR=28.115, SSIM=0.8779 pre_time:0.0164s, forward_time:0.276s, post_time:0.456s, total_time:0.748s
+> walk-00000044 PSNR=28.131, SSIM=0.8799 pre_time:0.0173s, forward_time:0.272s, post_time:0.469s, total_time:0.759s
+# Video:calendar AVG-PSNR=20.891, AVG-SSIM=0.6964
+# Video:city AVG-PSNR=25.489, AVG-SSIM=0.7268
+# Video:foliage AVG-PSNR=23.842, AVG-SSIM=0.6893
+# Video:walk AVG-PSNR=27.495, AVG-SSIM=0.8591
+# Total AVG-PSNR=24.47, AVG-SSIM=0.7454
